@@ -1,0 +1,56 @@
+.growth-cta {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  width: 92%;
+  max-width: 1320px;
+  margin: 64px auto;
+  padding: 48px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #153c65;
+  color: #fff;
+}
+.growth-cta::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(90deg, #153c65 25%, #153c65e8 60%, #153c65b8), url('assets/Rectangle%204.png') right center/55% auto no-repeat;
+}
+.growth-cta .growth-cta-label { margin: 0 0 12px; color: #ffd128; font-size: 12px; font-weight: 700; letter-spacing: 1.8px; line-height: 1.5; }
+.growth-cta h2 { max-width: 650px; margin: 0 0 14px; font-size: clamp(26px, 2.6vw, 36px); font-weight: 700; line-height: 1.2; }
+.growth-cta .growth-cta-description { margin: 0; color: #d8e5f3; font-size: 17px; font-weight: 400; line-height: 1.6; }
+.growth-cta-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 52px;
+  padding: 14px 24px;
+  border: 1px solid #ffd128;
+  border-radius: 9px;
+  background: #ffd128;
+  color: #15304d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+.growth-cta-button:hover { background: #ffe16b; box-shadow: 0 6px 20px #0003; }
+.growth-cta-button:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+@media (max-width: 900px) {
+  .growth-cta { flex-direction: column; align-items: flex-start; gap: 26px; padding: 36px; margin: 44px auto; }
+}
+@media (max-width: 480px) {
+  .growth-cta { padding: 28px 24px; border-radius: 12px; }
+  .growth-cta .growth-cta-description { font-size: 15px; }
+  .growth-cta-button { width: 100%; padding: 13px 14px; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .growth-cta-button { transition: none; } }

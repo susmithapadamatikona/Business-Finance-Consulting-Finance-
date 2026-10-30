@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Your Account | Stackly</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="auth-logo.css">
+<link rel="stylesheet" href="brand-logo.css?v=20261030"></head>
+<body>
+  <main class="signup-layout">
+    <section class="signup-panel" aria-labelledby="signup-title">
+      <header><a class="auth-logo" href="index.html" aria-label="Stackly home"><img src="assets/stackly-whitish_blue-logo.webp" alt="Stackly" width="320" height="132"></a><h1 id="signup-title">Create Your Account</h1><p>Sign up to continue your Business Finance</p></header>
+      <form id="signup-form">
+        <div class="field"><label for="full-name">Full Name *</label><div class="input-wrap"><span aria-hidden="true">👤</span><input id="full-name" name="name" autocomplete="name" placeholder="Enter your full name" required></div></div>
+        <div class="field"><label for="email">Email Address *</label><div class="input-wrap"><span aria-hidden="true">✉️</span><input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required></div></div>
+        <div class="field"><label for="phone">Phone Number *</label><div class="input-wrap"><span aria-hidden="true">📞</span><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Enter your Phon Number" required></div></div>
+        <div class="field"><label for="password">Password *</label><div class="input-wrap"><span aria-hidden="true">🔒</span><input id="password" name="password" type="password" autocomplete="new-password" placeholder="Enter your password" required><button class="password-toggle" type="button" aria-label="Show password" aria-pressed="false" data-target="password">👁️</button></div></div>
+        <div class="field"><label for="confirm-password">Confirm Password *</label><div class="input-wrap"><span aria-hidden="true">🔒</span><input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" placeholder="Confirm your password" required><button class="password-toggle" type="button" aria-label="Show confirm password" aria-pressed="false" data-target="confirm-password">👁️</button></div></div>
+        <fieldset class="roles"><legend>Select Role:</legend><div class="role-options"><label><input type="radio" name="role" value="owner" checked><span>Owner</span></label><label><input type="radio" name="role" value="client"><span>Client</span></label><label><input type="radio" name="role" value="other"><span>📦 Other</span></label></div></fieldset>
+        <label class="agreement"><input type="checkbox" name="agreement" required checked><span>I agree to the <button type="button" data-info="Terms & Conditions">Terms &amp; Conditions</button> and <button type="button" data-info="Privacy Policy">Privacy Policy.</button></span></label>
+        <button class="create-account" type="submit">Create Account ➜</button>
+        <p class="signin">Already have an account? <a href="login.html">Sign In ➜</a></p>
+        <p id="form-status" role="status" hidden></p>
+      </form>
+    </section>
+    <aside class="signup-photo" aria-hidden="true"></aside>
+  </main>
+  <dialog id="account-info" aria-labelledby="info-title"><h2 id="info-title"></h2><p id="info-message"></p><button type="button" id="close-info">Close</button></dialog>
+  <script src="signup.js"></script>
+</body>
+</html>

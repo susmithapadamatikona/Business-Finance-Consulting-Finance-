@@ -1,0 +1,52 @@
+.site-header .header-account-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.site-header .header-login,
+.site-header .header-signup {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 20px;
+  border: 1px solid #0868c8;
+  border-radius: 8px;
+  font: 600 14px/22px Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color .15s, border-color .15s, color .15s;
+}
+.site-header .header-login { background: #fff; color: #0868c8; }
+.site-header .header-signup { background: #0868c8; color: #fff; }
+.site-header .header-login:hover { background: #edf5ff; }
+.site-header .header-signup:hover { background: #0055aa; border-color: #0055aa; }
+.site-header .header-login:focus-visible,
+.site-header .header-signup:focus-visible { outline: 3px solid #0875d1; outline-offset: 3px; }
+@media (min-width: 1201px) {
+  body .site-header { gap: 20px; }
+  body .site-header nav { margin-left: auto; gap: 28px; }
+  body .site-header .search { width: 190px; }
+}
+@media (min-width: 761px) and (max-width: 1200px) {
+  body .site-header { height: auto; min-height: 84px; flex-wrap: wrap; padding: 16px 4%; gap: 16px; }
+  body .site-header .search { margin-left: auto; }
+  body .site-header nav { order: 3; width: 100%; margin: 0; justify-content: center; gap: 30px; }
+}
+@media (max-width: 760px) {
+  body .site-header { gap: 14px 10px; }
+  body .site-header > .logo-link { flex-shrink: 0; margin-right: auto; }
+  .site-header .header-account-actions { gap: 8px; margin-left: auto; }
+  .site-header .header-login,
+  .site-header .header-signup { min-height: 40px; padding: 8px 13px; font-size: 13px; }
+}
+@media (max-width: 360px) {
+  body .site-header .logo { width: 115px; }
+  .site-header .header-login,
+  .site-header .header-signup { padding-right: 10px; padding-left: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header .header-login,
+  .site-header .header-signup { transition: none; }
+}

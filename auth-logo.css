@@ -1,0 +1,19 @@
+.auth-logo {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  margin: 0 auto 18px;
+  border-radius: 6px;
+}
+.auth-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.auth-logo:focus-visible {
+  outline: 3px solid #0875d1;
+  outline-offset: 4px;
+}
+@media (max-width: 760px) {
+  .auth-logo { width: 155px; margin-bottom: 16px; }
+}

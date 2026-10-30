@@ -1,0 +1,7 @@
+/* Preserve the supplied logo artwork and match its color to each background. */
+img[src^="assets/stackly-whitish_blue-logo.webp"] {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(95%) saturate(1993%) hue-rotate(197deg) brightness(95%) contrast(96%);
+}
+.finance-footer img[src^="assets/stackly-whitish_blue-logo.webp"] {
+  filter: brightness(0) invert(1);
+}

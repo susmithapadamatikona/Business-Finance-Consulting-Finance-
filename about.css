@@ -1,0 +1,149 @@
+.about-page .site-header nav a:first-child{color:#111}.about-page .site-header nav a[aria-current="page"]{color:#0875d1}.about-page .container{width:90%;max-width:1300px}.about-hero{position:relative;overflow:hidden;background:#243640;min-height:635px;color:#fff}.about-hero>.picture{position:absolute;inset:0 0 auto;width:100%;min-width:1100px}.about-hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#273b46 0%,#273b46 46%,#14232e80 80%)}.about-hero-content{position:relative;z-index:1;padding:60px 0 70px}.breadcrumb{font-size:18px;font-weight:700;margin-bottom:45px}.about-label{font-size:34px;font-weight:700;margin-bottom:45px}.about-hero h1{font-size:36px;line-height:1.3;margin-bottom:40px}.about-hero h1 span{display:block;color:#ffd126;margin-top:36px}.about-hero-content>p:last-of-type{font-size:19px;line-height:1.35;max-width:570px;margin-bottom:44px}.about-hero-buttons{display:flex;gap:60px}.about-hero .button{font-size:18px;border-radius:22px;padding:10px 22px}.who-section{padding:80px 0 60px}.who-grid{display:grid;grid-template-columns:1fr 1.05fr .8fr;gap:55px;align-items:center}.who-picture{border-radius:7px}.who-copy .eyebrow{margin-bottom:25px}.who-copy h2{font-size:36px;margin-bottom:24px}.who-copy>p:not(.eyebrow){font-size:16px;line-height:1.25;margin-bottom:24px}.who-copy .button{font-size:14px;padding:7px 13px;color:#222}.who-benefits{display:grid;gap:38px}.who-benefit{display:flex;align-items:center;gap:26px}.who-benefit .icon{width:100px;height:100px;font-size:40px}.who-benefit h3{font-size:20px;margin-bottom:16px}.who-benefit p{font-size:16px;line-height:1.2}.mission-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:80px;padding-top:80px}.mission-card{display:flex;gap:28px;align-items:flex-start}.mission-card .icon{width:100px;height:100px;background:#e8e5fb}.mission-card h3{font-size:20px;margin-bottom:14px}.mission-card p{font-size:16px;line-height:1.2;max-width:240px}.about-stat-band{background:#e8e5fa;padding:70px 0}.about-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}.about-stat{display:flex;align-items:center;justify-content:center;gap:25px}.about-stat>span{font-size:35px}.about-stat strong{font-size:20px}.about-stat p{font-size:16px;margin-top:8px}.about-process{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;padding:80px 0}.process-card{border:1px solid #777;border-radius:8px;padding:65px 18px;min-height:375px}.process-card .step-number{width:100px;height:100px;font-size:38px;margin-bottom:40px}.process-card h3{font-size:20px;margin-bottom:35px}.process-card p{font-size:16px;line-height:1.3}.team-section{padding:0 0 80px}.team-heading{display:flex;align-items:center;justify-content:space-between;gap:50px;margin-bottom:80px}.team-heading h2{font-size:36px}.team-heading>div>p:last-child{font-size:16px;line-height:1.3;max-width:450px}.blue-button{color:#1681e7!important;border-color:#1681e7!important;white-space:nowrap;font-size:15px;background:transparent!important}.team-heading>.button{margin-right:9%}.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.team-card{border:1px solid #777;border-radius:7px;display:flex;align-items:center;gap:25px;padding:40px 55px;min-height:190px}.team-portrait,.team-initials{width:100px;height:100px;border:4px solid #0875d1;border-radius:50%;flex-shrink:0}.team-initials{display:grid;place-items:center;background:#e3effa;color:#095da6;font-size:30px;font-weight:700}.team-portrait img{width:calc(41100% / var(--w))}.team-card h3{font-size:19px;margin-bottom:22px}.team-card p{font-size:15px;white-space:nowrap;margin-top:14px}.about-testimonial{position:relative;overflow:hidden;background:#f2f8ff;min-height:500px}.testimonial-background{position:absolute;right:0;top:0;width:55%;opacity:.3}.about-testimonial:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#f2f8ff 45%,#f2f8ff00)}.about-testimonial-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;padding:105px 0}.testimonial-intro h2{font-size:36px}.testimonial-intro>p:last-of-type{max-width:420px;line-height:1.3;font-size:16px}.testimonial-intro .button{margin-top:90px;min-width:290px}.about-quote{background:#fff;border-radius:8px;padding:55px 40px;margin:0;max-width:430px;min-height:285px}.about-quote blockquote{margin:0 0 36px;font-size:16px;line-height:1.25}.about-quote figcaption{font-size:15px}.about-quote strong,.about-quote span{display:block}.about-quote span{margin-top:17px}.partners-section{padding:80px 0}.partners-section h2{font-size:36px}.partners-section>p:last-of-type{font-size:16px}.partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:75px 60px;margin-top:80px;max-width:1250px}.partner{border:1px solid #777;border-radius:7px;min-width:0;height:185px;display:flex;align-items:center;justify-content:center;gap:8px;overflow:hidden;font-weight:700;font-size:52px;line-height:1}.hdfc{color:#fff;font-size:43px;background:linear-gradient(#fff 34%,#005a9c 34%,#005a9c 69%,#fff 69%)}.hdfc-mark{color:#f52533;background:white;font-size:65px}.icici{color:#1375a0;font-style:italic;font-size:46px}.icici-mark{border-radius:50%;background:#b9242d;color:#fff;padding:0 15px;font-size:75px}.sbi{color:#28216e;font-size:110px}.sbi-mark{width:110px;height:110px;border-radius:50%;background:#00b4e3;position:relative;flex-shrink:0}.sbi-mark:after{content:'';position:absolute;background:#fff;width:29px;height:66px;left:40px;top:40px;border-radius:50% 50% 0 0}.kotak{color:#ed303d;font-size:80px}.kotak small{display:block;font-size:35px;color:#43618c;text-align:right;font-weight:400}.tata{color:#4369b0;flex-direction:column;font-size:70px;gap:0}.tata-mark{font-size:100px;font-family:Georgia,serif;line-height:.8}.lic{color:#1557a1;background:linear-gradient(#fff 8%,#ffcd00 8%,#ffcd00 72%,#fff 72%);font-size:110px;gap:12px;position:relative}.lic-mark{background:#125ba3;color:white;font-size:90px;padding:10px}.lic small{position:absolute;bottom:8px;left:4px;right:4px;text-align:center;font-size:11px}.about-page .newsletter{margin-top:0}.about-page .cta:after{background:linear-gradient(90deg,#24434b 0%,#24434b 50%,#24434b55)}
+@media(max-width:1100px){.about-hero{min-height:540px}.about-hero-content{padding:45px 0}.breadcrumb{font-size:16px;margin-bottom:30px}.about-label{font-size:28px;margin-bottom:28px}.about-hero h1{font-size:32px;margin-bottom:28px}.about-hero h1 span{margin-top:25px}.about-hero-content>p:last-of-type{font-size:17px;max-width:480px}.about-hero .button{font-size:15px}.who-grid{gap:28px}.who-copy h2{font-size:28px}.who-benefit{gap:16px}.who-benefit .icon{width:70px;height:70px;font-size:30px}.who-benefit h3{font-size:17px}.who-benefit p{font-size:14px}.mission-grid{gap:35px}.mission-card{gap:18px}.mission-card .icon{width:70px;height:70px}.mission-card h3{font-size:17px}.mission-card p{font-size:14px}.about-stat-band{padding:45px 0}.about-stat{gap:15px}.about-stat p{font-size:13px}.about-process{gap:24px;padding:60px 0}.process-card{padding:40px 18px;min-height:310px}.process-card .step-number{width:80px;height:80px;font-size:30px}.process-card h3{font-size:18px}.process-card p{font-size:14px}.team-heading h2{font-size:30px}.team-card{padding:28px 20px;gap:18px}.team-portrait,.team-initials{width:75px;height:75px}.team-card h3{font-size:16px}.team-card p{font-size:12px}.about-testimonial-inner{padding:75px 0;gap:50px}.testimonial-intro h2{font-size:30px}.about-quote{padding:40px 30px}.partner-grid{gap:45px 35px}.partner{height:150px}.hdfc{font-size:29px}.hdfc-mark{font-size:50px}.icici{font-size:30px}.icici-mark{font-size:55px}.sbi{font-size:75px}.sbi-mark{width:75px;height:75px}.sbi-mark:after{width:21px;height:44px;left:27px;top:28px}.kotak{font-size:60px}.kotak small{font-size:28px}.lic{font-size:75px}.lic-mark{font-size:60px}}
+@media(max-width:760px){.about-hero{min-height:540px}.about-hero-overlay{background:#233843e8}.about-hero-content{padding:35px 0}.breadcrumb{font-size:14px}.about-label{font-size:24px;margin-bottom:30px}.about-hero h1{font-size:29px}.about-hero-content>p:last-of-type{font-size:16px;max-width:370px}.about-hero-buttons{gap:15px;flex-wrap:wrap}.about-hero .button{font-size:13px}.who-section{padding:45px 0}.who-grid{grid-template-columns:1fr;gap:30px}.who-picture{max-width:420px;width:100%;margin:auto}.who-copy h2{font-size:28px}.who-copy>p:not(.eyebrow){font-size:15px;line-height:1.5}.who-benefits{gap:25px}.who-benefit h3{margin-bottom:8px}.who-benefit p{font-size:15px}.mission-grid{grid-template-columns:1fr;gap:30px;padding-top:40px}.mission-card{gap:22px}.mission-card p{max-width:none;font-size:15px;line-height:1.4}.mission-card h3{font-size:19px}.about-stats{grid-template-columns:1fr 1fr;gap:30px 15px}.about-stat{justify-content:flex-start;gap:12px}.about-stat>span{font-size:27px}.about-stat strong{font-size:18px}.about-stat p{font-size:12px}.about-process{grid-template-columns:1fr 1fr;gap:18px;padding:45px 0}.process-card{padding:25px 16px;min-height:290px}.process-card .step-number{width:65px;height:65px;font-size:26px;margin-bottom:30px}.process-card h3{margin-bottom:20px;font-size:17px}.process-card p{font-size:14px}.team-section{padding-bottom:45px}.team-heading{display:block;margin-bottom:35px}.team-heading h2{font-size:28px}.team-heading>div>p:last-child{font-size:15px}.team-heading>.button{margin-top:25px}.team-grid{grid-template-columns:1fr;gap:18px}.team-card{padding:25px;min-height:140px;gap:25px}.team-card h3{font-size:18px;margin-bottom:15px}.team-card p{font-size:14px;margin-top:10px}.team-portrait,.team-initials{width:85px;height:85px}.about-testimonial{min-height:0}.about-testimonial-inner{grid-template-columns:1fr;gap:35px;padding:45px 0}.testimonial-intro h2{font-size:28px}.testimonial-intro .button{margin-top:30px;min-width:0}.about-quote{padding:30px;min-height:0;max-width:none}.about-quote blockquote{line-height:1.5;font-size:15px}.testimonial-background{width:100%;height:100%;opacity:.12}.partners-section{padding:45px 0}.partners-section h2{font-size:28px}.partners-section>p:last-of-type{font-size:15px}.partner-grid{grid-template-columns:1fr 1fr;gap:20px 15px;margin-top:35px}.partner{height:110px}.hdfc{font-size:18px;gap:3px}.hdfc-mark{font-size:35px}.icici{font-size:22px;gap:3px}.icici-mark{font-size:40px;padding:0 10px}.sbi{font-size:54px}.sbi-mark{width:50px;height:50px}.sbi-mark:after{width:13px;height:30px;left:18px;top:18px}.kotak{font-size:40px}.kotak small{font-size:20px}.tata{font-size:40px}.tata-mark{font-size:60px}.lic{font-size:55px;gap:6px}.lic-mark{font-size:35px;padding:8px}.lic small{font-size:6px;bottom:6px}}
+/* Keep the reference layout balanced without allowing long copy to widen columns. */
+.about-page #team{background:#fff;color:#171717}
+.about-page #team .team-heading{align-items:center}
+.about-page #team .team-heading .eyebrow{font-size:20px;line-height:1.2;letter-spacing:0;color:#edb900}
+.about-page #team .team-heading>.button{font-size:16px;padding:10px 24px;line-height:1.2}
+.about-page #team .team-card{min-width:0}
+.about-page #team .team-card h3{line-height:1.2}
+.about-page #team .team-portrait{object-fit:cover;object-position:center;display:block}
+.about-page #team .team-card img.team-portrait{border:0;object-fit:contain;background:transparent}
+.about-page #team .team-portrait[hidden],.about-page #team .team-initials[hidden]{display:none}
+@media(min-width:1201px){
+ .about-page #team .team-heading{min-height:170px;align-items:flex-start;position:relative;margin-bottom:80px}
+ .about-page #team .team-heading>.button{position:absolute;right:9%;top:65px;margin:0}
+ .about-page #team .team-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+ .about-page #team .team-card{padding:40px 60px;gap:25px;min-height:190px;flex-direction:row;align-items:center}
+ .about-page #team .team-portrait,.about-page #team .team-initials{width:100px;height:100px;border:4px solid #0875d1;flex-shrink:0}
+ .about-page #team .team-card h3{font-size:19px;margin-bottom:22px}
+ .about-page #team .team-card p{font-size:15px;margin-top:14px}
+}
+@media(max-width:760px){
+ .about-page #team .team-heading .eyebrow{font-size:16px}
+ .about-page #team .team-card{flex-direction:row;align-items:center}
+ .about-page #team .team-heading>.button{font-size:14px}
+}
+.about-page #who-we-are{background:#fff;color:#171717}
+.about-page #who-we-are .who-grid{align-items:start}
+.about-page #who-we-are .who-picture{width:100%;aspect-ratio:430/378;border-radius:8px}
+.about-page #who-we-are .finance-photo{overflow:hidden;background:#eef3f7;position:relative}
+.finance-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.about-page #who-we-are .who-copy{padding-top:8px}
+.about-page #who-we-are .who-copy .eyebrow{color:#edb900;font-size:20px;line-height:1.2;letter-spacing:0;margin-bottom:24px}
+.about-page #who-we-are .who-copy h2{letter-spacing:-.5px;line-height:1.2;margin-bottom:22px}
+.about-page #who-we-are .who-copy>p:not(.eyebrow){line-height:1.25;margin-bottom:22px}
+.about-page #who-we-are .who-benefits{gap:38px}
+.about-page #who-we-are .who-benefit{gap:26px;min-height:100px;align-items:center}
+.about-page #who-we-are .who-benefit .icon{width:100px;height:100px;background:#d9eafb;font-size:44px}
+.about-page #who-we-are .who-benefit h3{margin-bottom:16px;line-height:1.2}
+@media(min-width:1101px){
+ .about-page #who-we-are{width:calc(100% - 120px);max-width:1320px}
+ .about-page #who-we-are .who-grid{grid-template-columns:minmax(0,430fr) minmax(0,445fr) minmax(0,335fr);gap:4.1667%}
+}
+@media(min-width:761px) and (max-width:1100px){
+ .about-page #who-we-are .who-copy .eyebrow{font-size:16px;margin-bottom:18px}
+ .about-page #who-we-are .who-benefit{min-height:70px;gap:16px}
+ .about-page #who-we-are .who-benefit .icon{width:70px;height:70px;font-size:32px}
+ .about-page #who-we-are .who-benefit h3{margin-bottom:10px}
+}
+@media(max-width:1000px) and (min-width:761px){
+ .about-page #who-we-are .who-benefit{align-items:flex-start}
+ .about-page #who-we-are .who-benefit .icon{width:56px;height:56px;font-size:28px}
+}
+@media(max-width:760px){
+ .about-page #who-we-are .who-grid{gap:30px}
+ .about-page #who-we-are .who-copy{padding-top:0}
+ .about-page #who-we-are .who-copy .eyebrow{font-size:16px;margin-bottom:18px}
+ .about-page #who-we-are .who-benefits{gap:24px}
+ .about-page #who-we-are .who-benefit{min-height:76px;gap:20px}
+ .about-page #who-we-are .who-benefit .icon{width:76px;height:76px;font-size:34px}
+ .about-page #who-we-are .who-benefit h3{margin-bottom:8px}
+}
+.about-page main{overflow:clip}
+.about-page .container{max-width:1300px}
+.who-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) minmax(0,.8fr);gap:40px}
+.who-grid>* , .mission-card>div, .team-card>div, .footer-grid>*{min-width:0}
+.who-benefit .icon,.mission-card .icon{flex-shrink:0}
+.about-page .icon,.about-stat>span{font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif}
+.team-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.team-card{padding:40px clamp(20px,3vw,55px);gap:24px}
+.team-card p{white-space:normal}
+.team-card img.team-portrait{display:block;object-fit:cover;object-position:center;border:4px solid #0875d1}
+.testimonial-background{height:100%;object-fit:cover;object-position:center;opacity:.45}
+.about-testimonial-inner{grid-template-columns:31% minmax(0,430px);gap:80px}
+.about-quote{width:100%}
+.about-cta-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 62%}
+.about-page .cta:after{background:linear-gradient(90deg,#24434b9e,#24434b55)}
+.about-page .cta-inner{padding:80px 0}
+.about-page .about-hero-content{width:94%;max-width:1350px}
+.about-page .newsletter .subscribe input{width:360px;text-align:center}
+.about-page .newsletter .subscribe button{min-width:145px}
+.about-page .socials svg{width:18px;height:18px;fill:currentColor}
+.about-page .socials a[aria-label="Instagram"] svg{fill:none;stroke:currentColor;stroke-width:1.5}
+.about-page .socials a[aria-label="YouTube"] svg path{fill:#031b2d}
+@media(min-width:1201px){
+ .about-page .site-header nav{margin-left:80px;gap:50px}
+ .about-page .site-header .account{margin-right:6%}
+ .about-page .about-hero .button{font-size:20px;padding:10px 24px}
+ .about-page .cta .button{font-size:20px;min-width:325px;border-radius:8px}
+}
+@media(min-width:761px) and (max-width:1200px){
+ .about-page .site-header{gap:18px}
+ .about-page .site-header nav{gap:20px}
+ .about-page .site-header .search{width:180px}
+ .about-page .site-header .logo{width:155px}
+ .team-card{padding:28px 18px;gap:16px}
+ .team-portrait,.team-initials{width:75px;height:75px}
+ .about-page .footer-grid{gap:24px}
+}
+@media(min-width:761px) and (max-width:1000px){
+ .about-page .site-header{height:auto;min-height:84px;flex-wrap:wrap;padding:16px 5%}
+ .about-page .site-header nav{order:3;width:100%;justify-content:center;margin:0;gap:40px}
+ .about-page .site-header .search{margin-left:auto}
+ .who-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .who-benefits{grid-column:1/-1;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+ .who-benefit{align-items:flex-start;gap:12px}
+ .who-benefit .icon{width:56px;height:56px;font-size:25px}
+ .who-benefit h3{margin-bottom:10px}
+ .mission-grid{gap:24px}
+ .mission-card{gap:12px}
+ .mission-card .icon{width:56px;height:56px}
+ .team-card{flex-direction:column;align-items:flex-start;padding:24px}
+ .about-page .footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .about-page .footer-brand{grid-row:span 2}
+ .about-page .footer-newsletter{grid-column:2/-1}
+ .about-page .newsletter-inner{gap:25px}
+ .about-page .newsletter-inner>div{flex:1}
+ .about-page .subscribe input{width:220px}
+ .about-page .newsletter .subscribe input{width:220px}
+ .about-page .newsletter .subscribe button{min-width:0}
+ .about-testimonial-inner{grid-template-columns:1fr 1fr;gap:40px}
+}
+@media(max-width:760px){
+ .who-grid{grid-template-columns:minmax(0,1fr)}
+ .team-grid{grid-template-columns:minmax(0,1fr)}
+ .team-card{padding:25px;gap:25px}
+ .who-grid{gap:30px}
+ .about-testimonial-inner{grid-template-columns:minmax(0,1fr);gap:35px}
+ .about-page .about-hero-content{width:90%}
+ .about-hero>.picture{left:auto;right:0;width:1300px;min-width:1300px}
+ .about-hero-overlay{background:#233843f5}
+ .about-page .site-header>.logo-link{flex-shrink:0}
+ .about-page .site-header .account{margin-left:auto}
+ .about-page .site-header nav{flex-wrap:wrap;gap:12px 18px;justify-content:center}
+ .about-page .cta-inner{padding:42px 0}
+ .about-page .newsletter .subscribe input{width:0}
+ .about-page .newsletter .subscribe button{min-width:0}
+ .about-page .newsletter-inner .subscribe{max-width:100%}
+ .about-page .subscribe input{width:0;flex:1}
+ .about-page .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:380px){
+ .about-process{grid-template-columns:minmax(0,1fr)}
+ .process-card{min-height:0;padding:25px}
+ .partner-grid{grid-template-columns:minmax(0,1fr)}
+ .about-page .site-header nav{flex-wrap:wrap;justify-content:center;gap:12px 20px}
+}
+

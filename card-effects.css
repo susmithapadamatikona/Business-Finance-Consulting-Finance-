@@ -1,0 +1,15 @@
+body .animated-card {
+  transition: opacity .55s ease-out var(--card-delay,0ms), transform .55s ease-out var(--card-delay,0ms), background-color .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease, translate .2s ease !important;
+}
+body .animated-card:focus-within {
+  background-color:#0868c8 !important;color:#fff !important;border-color:#0868c8 !important;box-shadow:0 14px 30px #123b6733;
+}
+body .animated-card:focus-within :is(h2,h3,h4,p,small,strong,blockquote,time,.post-category,.post-meta,.text-button,a:not(.button):not(.primary)) {color:#fff !important}
+@media(hover:hover){
+  body .animated-card:hover {background-color:#0868c8 !important;color:#fff !important;border-color:#0868c8 !important;box-shadow:0 14px 30px #123b6733;translate:0 -5px}
+  body .animated-card:hover :is(h2,h3,h4,p,small,strong,blockquote,time,.post-category,.post-meta,.text-button,a:not(.button):not(.primary)) {color:#fff !important}
+  body .animated-card:hover .blog-copy,body .animated-card:hover .post-content{background-color:transparent !important}
+}
+@media(prefers-reduced-motion:reduce){
+  body .animated-card,body .animated-card[data-aos]{transition:none!important;transform:none!important;translate:none!important;opacity:1!important}
+}
